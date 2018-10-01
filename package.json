@@ -1,0 +1,32 @@
+{
+  "name": "joinandwaitingplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "js": "parcel serve resources/js/app.js -d public/js",
+    "server": "nodemon server",
+    "start": "npm-run-all --parallel server js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-inline-functions": "^1.0.4",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4",
+    "npm-run-all": "^4.1.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-react-inline-elements": "^7.0.0"
+  }
+}
