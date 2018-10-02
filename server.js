@@ -24,17 +24,22 @@ let gameId = 0
 io.on('connection' , socket => {
   console.log('connected')
   console.log(socket.id)
+  
+  users[socket.id] = {
+    socket_id: socket.id ,
+    id: null ,
+    username: null,
+    inGame: null ,
+    player: null ,
+    gameRoom: null
+  }
+
   socket.on('waiting' , data => {
     socket.userId = data.id
     socket.username = data.username 
-
-    users[socket.id] = {
-      socket_id: socket.id ,
-      id: data.id ,
-      username: data.username ,
-      inGame: null ,
-      player: null
-    }
+    
+    users[socket.id].username = data.username 
+    users[socket.id].id = data.id
 
     console.log(users)
     
@@ -47,11 +52,28 @@ io.on('connection' , socket => {
 
   socket.on('disconnect' , () => {
     console.log(socket.username , 'disconnect')
-    socket.leave('waiting room')
-    delete users[socket.userId]
+    leaveGame(socket)
+    delete users[socket.id]
+    console.log(users)
   })
 
 })
+
+function leaveGame(socket) {
+  if (users[socket.id].inGame !== null) {
+    io.in('game' + users[socket.id].gameRoom).emit('leave' , {
+      text: `${users[socket.id].username} has left game...`
+    })
+
+    users[socket.id].inGame = null
+    users[socket.id].player = null 
+    users[socket.id].gameRoom = null 
+
+    socket.leave('game' + users[socket.id].gameRoom)
+  } else {
+    socket.leave('waiting room')
+  }
+}
 
 function getClients(room , user_id , username) {
   let clients = []
@@ -94,8 +116,10 @@ function joinAndWaitingPlayers(user_id , username) {
 
     users[player[0].id].player = 1
     users[player[0].id].inGame = true
+    users[player[0].id].gameRoom = gameId 
     users[player[1].id].player = 1
     users[player[1].id].inGame = true
+    users[player[1].id].gameRoom = gameId 
 
     io.sockets.in('game' + gameId).emit('join' , {
       room: gameId ,

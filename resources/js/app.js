@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom'
 import io from 'socket.io-client'
 import uuid from 'uuid'
 
+import './app.scss'
+
 class App extends Component {
   constructor(props) {
     super(props)
@@ -12,10 +14,18 @@ class App extends Component {
       username: '',
       waiting: false ,
       startGame: false ,
-      players: []
+      players: [] ,
+      notification: ''
     }
     
     this.socket.on('join' , data => this.handleStartGame(data))
+
+    this.socket.on('leave' , data => this.leaveRoom(data))
+  }
+
+  leaveRoom(data) {
+    console.log(data)
+    this.setState({ notification: `${data.text} You win` })
   }
 
   handleStartGame(data) {
@@ -23,7 +33,7 @@ class App extends Component {
     for (let i in data.players) {
       this.state.players.push(data.players[i])
     }
-    this.setState({ startGame: true , players: data.players} , () => {
+    this.setState({ startGame: true , players: data.players , notification: 'Game started'} , () => {
       console.log(this.state)
     })
   }
@@ -57,7 +67,7 @@ class App extends Component {
   }
 
   render() {
-    const { username , waiting , startGame , players } = this.state 
+    const { username , waiting , startGame , players , notification } = this.state 
 
     let allplayer = null
 
@@ -84,7 +94,7 @@ class App extends Component {
             {
               startGame ? (
                 <div>
-                  <h3>game started</h3>
+                  <h3>{ notification }</h3>
                   
                 </div>
               ): renderWaiting

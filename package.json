@@ -27,6 +27,8 @@
     "uuid": "^3.3.2"
   },
   "devDependencies": {
-    "@babel/plugin-transform-react-inline-elements": "^7.0.0"
+    "@babel/plugin-transform-react-inline-elements": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "node-sass": "^4.9.3"
   }
 }

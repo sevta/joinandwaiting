@@ -21573,7 +21573,7 @@ function coerce(val) {
   return val;
 }
 
-},{"ms":"..\\..\\node_modules\\ms\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process\\browser.js":[function(require,module,exports) {
+},{"ms":"..\\..\\node_modules\\ms\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process\\browser.js":[function(require,module,exports) {
 
 // shim for using process in browser
 var process = module.exports = {};
@@ -21934,7 +21934,7 @@ function localstorage() {
     return window.localStorage;
   } catch (e) {}
 }
-},{"./debug":"..\\..\\node_modules\\socket.io-client\\node_modules\\debug\\src\\debug.js","process":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process\\browser.js"}],"..\\..\\node_modules\\socket.io-client\\lib\\url.js":[function(require,module,exports) {
+},{"./debug":"..\\..\\node_modules\\socket.io-client\\node_modules\\debug\\src\\debug.js","process":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process\\browser.js"}],"..\\..\\node_modules\\socket.io-client\\lib\\url.js":[function(require,module,exports) {
 var global = arguments[3];
 
 /**
@@ -22413,7 +22413,7 @@ function localstorage() {
     return window.localStorage;
   } catch (e) {}
 }
-},{"./debug":"..\\..\\node_modules\\socket.io-parser\\node_modules\\debug\\src\\debug.js","process":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process\\browser.js"}],"..\\..\\node_modules\\component-emitter\\index.js":[function(require,module,exports) {
+},{"./debug":"..\\..\\node_modules\\socket.io-parser\\node_modules\\debug\\src\\debug.js","process":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process\\browser.js"}],"..\\..\\node_modules\\component-emitter\\index.js":[function(require,module,exports) {
 
 /**
  * Expose `Emitter`.
@@ -23262,7 +23262,7 @@ module.exports = Array.isArray || function (arr) {
   return toString.call(arr) == '[object Array]';
 };
 
-},{}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\base64-js\\index.js":[function(require,module,exports) {
+},{}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\base64-js\\index.js":[function(require,module,exports) {
 'use strict'
 
 exports.byteLength = byteLength
@@ -23415,7 +23415,7 @@ function fromByteArray (uint8) {
   return parts.join('')
 }
 
-},{}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\ieee754\\index.js":[function(require,module,exports) {
+},{}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\ieee754\\index.js":[function(require,module,exports) {
 exports.read = function (buffer, offset, isLE, mLen, nBytes) {
   var e, m
   var eLen = (nBytes * 8) - mLen - 1
@@ -23501,14 +23501,14 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
   buffer[offset + i - d] |= s * 128
 }
 
-},{}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\isarray\\index.js":[function(require,module,exports) {
+},{}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\isarray\\index.js":[function(require,module,exports) {
 var toString = {}.toString;
 
 module.exports = Array.isArray || function (arr) {
   return toString.call(arr) == '[object Array]';
 };
 
-},{}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js":[function(require,module,exports) {
+},{}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js":[function(require,module,exports) {
 
 var global = arguments[3];
 /*!
@@ -25301,7 +25301,7 @@ function isnan (val) {
   return val !== val // eslint-disable-line no-self-compare
 }
 
-},{"base64-js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\base64-js\\index.js","ieee754":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\ieee754\\index.js","isarray":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\isarray\\index.js","buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"..\\..\\node_modules\\has-binary2\\index.js":[function(require,module,exports) {
+},{"base64-js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\base64-js\\index.js","ieee754":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\ieee754\\index.js","isarray":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\isarray\\index.js","buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"..\\..\\node_modules\\has-binary2\\index.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 /* global Blob File */
 
@@ -25368,7 +25368,7 @@ function hasBinary (obj) {
   return false;
 }
 
-},{"isarray":"..\\..\\node_modules\\has-binary2\\node_modules\\isarray\\index.js","buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"..\\..\\node_modules\\arraybuffer.slice\\index.js":[function(require,module,exports) {
+},{"isarray":"..\\..\\node_modules\\has-binary2\\node_modules\\isarray\\index.js","buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"..\\..\\node_modules\\arraybuffer.slice\\index.js":[function(require,module,exports) {
 /**
  * An abstraction for slicing an arraybuffer even when
  * ArrayBuffer.prototype.slice is not supported
@@ -27148,7 +27148,7 @@ function localstorage() {
     return window.localStorage;
   } catch (e) {}
 }
-},{"./debug":"..\\..\\node_modules\\engine.io-client\\node_modules\\debug\\src\\debug.js","process":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process\\browser.js"}],"..\\..\\node_modules\\engine.io-client\\lib\\transports\\polling.js":[function(require,module,exports) {
+},{"./debug":"..\\..\\node_modules\\engine.io-client\\node_modules\\debug\\src\\debug.js","process":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process\\browser.js"}],"..\\..\\node_modules\\engine.io-client\\lib\\transports\\polling.js":[function(require,module,exports) {
 /**
  * Module dependencies.
  */
@@ -28044,7 +28044,7 @@ JSONPPolling.prototype.doWrite = function (data, fn) {
   }
 };
 
-},{"./polling":"..\\..\\node_modules\\engine.io-client\\lib\\transports\\polling.js","component-inherit":"..\\..\\node_modules\\component-inherit\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\_empty.js":[function(require,module,exports) {
+},{"./polling":"..\\..\\node_modules\\engine.io-client\\lib\\transports\\polling.js","component-inherit":"..\\..\\node_modules\\component-inherit\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\_empty.js":[function(require,module,exports) {
 
 },{}],"..\\..\\node_modules\\engine.io-client\\lib\\transports\\websocket.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -28335,7 +28335,7 @@ WS.prototype.check = function () {
   return !!WebSocket && !('__initialize' in WebSocket && this.name === WS.prototype.name);
 };
 
-},{"../transport":"..\\..\\node_modules\\engine.io-client\\lib\\transport.js","engine.io-parser":"..\\..\\node_modules\\engine.io-parser\\lib\\browser.js","parseqs":"..\\..\\node_modules\\parseqs\\index.js","component-inherit":"..\\..\\node_modules\\component-inherit\\index.js","yeast":"..\\..\\node_modules\\yeast\\index.js","debug":"..\\..\\node_modules\\engine.io-client\\node_modules\\debug\\src\\browser.js","ws":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\_empty.js"}],"..\\..\\node_modules\\engine.io-client\\lib\\transports\\index.js":[function(require,module,exports) {
+},{"../transport":"..\\..\\node_modules\\engine.io-client\\lib\\transport.js","engine.io-parser":"..\\..\\node_modules\\engine.io-parser\\lib\\browser.js","parseqs":"..\\..\\node_modules\\parseqs\\index.js","component-inherit":"..\\..\\node_modules\\component-inherit\\index.js","yeast":"..\\..\\node_modules\\yeast\\index.js","debug":"..\\..\\node_modules\\engine.io-client\\node_modules\\debug\\src\\browser.js","ws":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\_empty.js"}],"..\\..\\node_modules\\engine.io-client\\lib\\transports\\index.js":[function(require,module,exports) {
 var global = arguments[3];
 /**
  * Module dependencies
@@ -30424,7 +30424,7 @@ exports.connect = lookup;
 exports.Manager = require('./manager');
 exports.Socket = require('./socket');
 
-},{"./url":"..\\..\\node_modules\\socket.io-client\\lib\\url.js","socket.io-parser":"..\\..\\node_modules\\socket.io-parser\\index.js","./manager":"..\\..\\node_modules\\socket.io-client\\lib\\manager.js","debug":"..\\..\\node_modules\\socket.io-client\\node_modules\\debug\\src\\browser.js","./socket":"..\\..\\node_modules\\socket.io-client\\lib\\socket.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js":[function(require,module,exports) {
+},{"./url":"..\\..\\node_modules\\socket.io-client\\lib\\url.js","socket.io-parser":"..\\..\\node_modules\\socket.io-parser\\index.js","./manager":"..\\..\\node_modules\\socket.io-client\\lib\\manager.js","debug":"..\\..\\node_modules\\socket.io-client\\node_modules\\debug\\src\\browser.js","./socket":"..\\..\\node_modules\\socket.io-client\\lib\\socket.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js":[function(require,module,exports) {
 
 /* eslint-disable node/no-deprecated-api */
 var buffer = require('buffer')
@@ -30489,7 +30489,7 @@ SafeBuffer.allocUnsafeSlow = function (size) {
   return buffer.SlowBuffer(size)
 }
 
-},{"buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\randombytes\\browser.js":[function(require,module,exports) {
+},{"buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\randombytes\\browser.js":[function(require,module,exports) {
 
 var global = arguments[3];
 var process = require("process");
@@ -30532,7 +30532,7 @@ function randomBytes (size, cb) {
   return bytes
 }
 
-},{"safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","process":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process\\browser.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js":[function(require,module,exports) {
+},{"safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","process":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process\\browser.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js":[function(require,module,exports) {
 if (typeof Object.create === 'function') {
   // implementation from standard node.js 'util' module
   module.exports = function inherits(ctor, superCtor) {
@@ -30557,7 +30557,7 @@ if (typeof Object.create === 'function') {
   }
 }
 
-},{}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\events\\events.js":[function(require,module,exports) {
+},{}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\events\\events.js":[function(require,module,exports) {
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -30823,7 +30823,7 @@ function isObject(arg) {
 function isUndefined(arg) {
   return arg === void 0;
 }
-},{}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process-nextick-args\\index.js":[function(require,module,exports) {
+},{}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process-nextick-args\\index.js":[function(require,module,exports) {
 var process = require("process");
 'use strict';
 
@@ -30870,10 +30870,10 @@ function nextTick(fn, arg1, arg2, arg3) {
 }
 
 
-},{"process":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process\\browser.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\internal\\streams\\stream.js":[function(require,module,exports) {
+},{"process":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process\\browser.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\internal\\streams\\stream.js":[function(require,module,exports) {
 module.exports = require('stream');
 
-},{"stream":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\stream-browserify\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\core-util-is\\lib\\util.js":[function(require,module,exports) {
+},{"stream":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\stream-browserify\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\core-util-is\\lib\\util.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -30983,7 +30983,7 @@ function objectToString(o) {
   return Object.prototype.toString.call(o);
 }
 
-},{"buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\internal\\streams\\BufferList.js":[function(require,module,exports) {
+},{"buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\internal\\streams\\BufferList.js":[function(require,module,exports) {
 
 'use strict';
 
@@ -31064,7 +31064,7 @@ if (util && util.inspect && util.inspect.custom) {
     return this.constructor.name + ' ' + obj;
   };
 }
-},{"safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","util":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\_empty.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js":[function(require,module,exports) {
+},{"safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","util":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\_empty.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js":[function(require,module,exports) {
 'use strict';
 
 /*<replacement>*/
@@ -31139,7 +31139,7 @@ module.exports = {
   destroy: destroy,
   undestroy: undestroy
 };
-},{"process-nextick-args":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process-nextick-args\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\util-deprecate\\browser.js":[function(require,module,exports) {
+},{"process-nextick-args":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process-nextick-args\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\util-deprecate\\browser.js":[function(require,module,exports) {
 var global = arguments[3];
 
 /**
@@ -31209,7 +31209,7 @@ function config (name) {
   return String(val).toLowerCase() === 'true';
 }
 
-},{}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_writable.js":[function(require,module,exports) {
+},{}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_writable.js":[function(require,module,exports) {
 var process = require("process");
 
 var global = arguments[3];
@@ -31900,7 +31900,7 @@ Writable.prototype._destroy = function (err, cb) {
   this.end();
   cb(err);
 };
-},{"process-nextick-args":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process-nextick-args\\index.js","core-util-is":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\core-util-is\\lib\\util.js","inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","util-deprecate":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\util-deprecate\\browser.js","./internal/streams/stream":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\internal\\streams\\stream.js","safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","./internal/streams/destroy":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js","./_stream_duplex":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_duplex.js","process":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process\\browser.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_duplex.js":[function(require,module,exports) {
+},{"process-nextick-args":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process-nextick-args\\index.js","core-util-is":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\core-util-is\\lib\\util.js","inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","util-deprecate":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\util-deprecate\\browser.js","./internal/streams/stream":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\internal\\streams\\stream.js","safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","./internal/streams/destroy":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js","./_stream_duplex":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_duplex.js","process":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process\\browser.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_duplex.js":[function(require,module,exports) {
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -32032,7 +32032,7 @@ Duplex.prototype._destroy = function (err, cb) {
 
   pna.nextTick(cb, err);
 };
-},{"process-nextick-args":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process-nextick-args\\index.js","core-util-is":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\core-util-is\\lib\\util.js","inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","./_stream_readable":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_readable.js","./_stream_writable":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_writable.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\string_decoder\\lib\\string_decoder.js":[function(require,module,exports) {
+},{"process-nextick-args":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process-nextick-args\\index.js","core-util-is":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\core-util-is\\lib\\util.js","inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","./_stream_readable":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_readable.js","./_stream_writable":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_writable.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\string_decoder\\lib\\string_decoder.js":[function(require,module,exports) {
 
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -32330,7 +32330,7 @@ function simpleWrite(buf) {
 function simpleEnd(buf) {
   return buf && buf.length ? this.write(buf) : '';
 }
-},{"safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_readable.js":[function(require,module,exports) {
+},{"safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_readable.js":[function(require,module,exports) {
 
 var global = arguments[3];
 var process = require("process");
@@ -33353,7 +33353,7 @@ function indexOf(xs, x) {
   }
   return -1;
 }
-},{"process-nextick-args":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process-nextick-args\\index.js","isarray":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\isarray\\index.js","events":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\events\\events.js","./internal/streams/stream":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\internal\\streams\\stream.js","safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","core-util-is":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\core-util-is\\lib\\util.js","inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","util":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\_empty.js","./internal/streams/BufferList":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\internal\\streams\\BufferList.js","./internal/streams/destroy":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js","./_stream_duplex":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_duplex.js","string_decoder/":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\string_decoder\\lib\\string_decoder.js","process":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process\\browser.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_transform.js":[function(require,module,exports) {
+},{"process-nextick-args":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process-nextick-args\\index.js","isarray":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\isarray\\index.js","events":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\events\\events.js","./internal/streams/stream":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\internal\\streams\\stream.js","safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","core-util-is":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\core-util-is\\lib\\util.js","inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","util":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\_empty.js","./internal/streams/BufferList":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\internal\\streams\\BufferList.js","./internal/streams/destroy":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js","./_stream_duplex":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_duplex.js","string_decoder/":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\string_decoder\\lib\\string_decoder.js","process":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process\\browser.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_transform.js":[function(require,module,exports) {
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -33568,7 +33568,7 @@ function done(stream, er, data) {
 
   return stream.push(null);
 }
-},{"./_stream_duplex":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_duplex.js","core-util-is":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\core-util-is\\lib\\util.js","inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_passthrough.js":[function(require,module,exports) {
+},{"./_stream_duplex":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_duplex.js","core-util-is":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\core-util-is\\lib\\util.js","inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_passthrough.js":[function(require,module,exports) {
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -33616,7 +33616,7 @@ function PassThrough(options) {
 PassThrough.prototype._transform = function (chunk, encoding, cb) {
   cb(null, chunk);
 };
-},{"./_stream_transform":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_transform.js","core-util-is":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\core-util-is\\lib\\util.js","inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\readable-browser.js":[function(require,module,exports) {
+},{"./_stream_transform":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_transform.js","core-util-is":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\core-util-is\\lib\\util.js","inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\readable-browser.js":[function(require,module,exports) {
 exports = module.exports = require('./lib/_stream_readable.js');
 exports.Stream = exports;
 exports.Readable = exports;
@@ -33625,19 +33625,19 @@ exports.Duplex = require('./lib/_stream_duplex.js');
 exports.Transform = require('./lib/_stream_transform.js');
 exports.PassThrough = require('./lib/_stream_passthrough.js');
 
-},{"./lib/_stream_readable.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_readable.js","./lib/_stream_writable.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_writable.js","./lib/_stream_duplex.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_duplex.js","./lib/_stream_transform.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_transform.js","./lib/_stream_passthrough.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_passthrough.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\writable-browser.js":[function(require,module,exports) {
+},{"./lib/_stream_readable.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_readable.js","./lib/_stream_writable.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_writable.js","./lib/_stream_duplex.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_duplex.js","./lib/_stream_transform.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_transform.js","./lib/_stream_passthrough.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_passthrough.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\writable-browser.js":[function(require,module,exports) {
 module.exports = require('./lib/_stream_writable.js');
 
-},{"./lib/_stream_writable.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_writable.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\duplex-browser.js":[function(require,module,exports) {
+},{"./lib/_stream_writable.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_writable.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\duplex-browser.js":[function(require,module,exports) {
 module.exports = require('./lib/_stream_duplex.js');
 
-},{"./lib/_stream_duplex.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_duplex.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\transform.js":[function(require,module,exports) {
+},{"./lib/_stream_duplex.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\lib\\_stream_duplex.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\transform.js":[function(require,module,exports) {
 module.exports = require('./readable').Transform
 
-},{"./readable":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\readable-browser.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\passthrough.js":[function(require,module,exports) {
+},{"./readable":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\readable-browser.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\passthrough.js":[function(require,module,exports) {
 module.exports = require('./readable').PassThrough
 
-},{"./readable":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\readable-browser.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\stream-browserify\\index.js":[function(require,module,exports) {
+},{"./readable":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\readable-browser.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\stream-browserify\\index.js":[function(require,module,exports) {
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -33766,7 +33766,7 @@ Stream.prototype.pipe = function(dest, options) {
   return dest;
 };
 
-},{"events":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\events\\events.js","inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","readable-stream/readable.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\readable-browser.js","readable-stream/writable.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\writable-browser.js","readable-stream/duplex.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\duplex-browser.js","readable-stream/transform.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\transform.js","readable-stream/passthrough.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\passthrough.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash-base\\index.js":[function(require,module,exports) {
+},{"events":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\events\\events.js","inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","readable-stream/readable.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\readable-browser.js","readable-stream/writable.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\writable-browser.js","readable-stream/duplex.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\duplex-browser.js","readable-stream/transform.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\transform.js","readable-stream/passthrough.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\readable-stream\\passthrough.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash-base\\index.js":[function(require,module,exports) {
 
 'use strict';
 
@@ -33864,7 +33864,7 @@ HashBase.prototype._digest = function () {
 };
 
 module.exports = HashBase;
-},{"safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","stream":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\stream-browserify\\index.js","inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\md5.js\\index.js":[function(require,module,exports) {
+},{"safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","stream":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\stream-browserify\\index.js","inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\md5.js\\index.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 'use strict'
 var inherits = require('inherits')
@@ -34012,7 +34012,7 @@ function fnI (a, b, c, d, m, k, s) {
 
 module.exports = MD5
 
-},{"inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","hash-base":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash-base\\index.js","buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\ripemd160\\index.js":[function(require,module,exports) {
+},{"inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","hash-base":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash-base\\index.js","buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\ripemd160\\index.js":[function(require,module,exports) {
 
 'use strict'
 var Buffer = require('buffer').Buffer
@@ -34178,7 +34178,7 @@ function fn5 (a, b, c, d, e, m, k, s) {
 
 module.exports = RIPEMD160
 
-},{"buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js","inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","hash-base":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash-base\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\hash.js":[function(require,module,exports) {
+},{"buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js","inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","hash-base":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash-base\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\hash.js":[function(require,module,exports) {
 
 var Buffer = require('safe-buffer').Buffer
 
@@ -34262,7 +34262,7 @@ Hash.prototype._update = function () {
 
 module.exports = Hash
 
-},{"safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha.js":[function(require,module,exports) {
+},{"safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha.js":[function(require,module,exports) {
 
 /*
  * A JavaScript implementation of the Secure Hash Algorithm, SHA-0, as defined
@@ -34359,7 +34359,7 @@ Sha.prototype._hash = function () {
 
 module.exports = Sha
 
-},{"inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","./hash":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\hash.js","safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha1.js":[function(require,module,exports) {
+},{"inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","./hash":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\hash.js","safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha1.js":[function(require,module,exports) {
 
 /*
  * A JavaScript implementation of the Secure Hash Algorithm, SHA-1, as defined
@@ -34461,7 +34461,7 @@ Sha1.prototype._hash = function () {
 
 module.exports = Sha1
 
-},{"inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","./hash":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\hash.js","safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha256.js":[function(require,module,exports) {
+},{"inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","./hash":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\hash.js","safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha256.js":[function(require,module,exports) {
 
 /**
  * A JavaScript implementation of the Secure Hash Algorithm, SHA-256, as defined
@@ -34599,7 +34599,7 @@ Sha256.prototype._hash = function () {
 
 module.exports = Sha256
 
-},{"inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","./hash":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\hash.js","safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha224.js":[function(require,module,exports) {
+},{"inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","./hash":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\hash.js","safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha224.js":[function(require,module,exports) {
 
 /**
  * A JavaScript implementation of the Secure Hash Algorithm, SHA-256, as defined
@@ -34655,7 +34655,7 @@ Sha224.prototype._hash = function () {
 
 module.exports = Sha224
 
-},{"inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","./sha256":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha256.js","./hash":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\hash.js","safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha512.js":[function(require,module,exports) {
+},{"inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","./sha256":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha256.js","./hash":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\hash.js","safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha512.js":[function(require,module,exports) {
 
 var inherits = require('inherits')
 var Hash = require('./hash')
@@ -34918,7 +34918,7 @@ Sha512.prototype._hash = function () {
 
 module.exports = Sha512
 
-},{"inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","./hash":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\hash.js","safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha384.js":[function(require,module,exports) {
+},{"inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","./hash":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\hash.js","safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha384.js":[function(require,module,exports) {
 
 var inherits = require('inherits')
 var SHA512 = require('./sha512')
@@ -34978,7 +34978,7 @@ Sha384.prototype._hash = function () {
 
 module.exports = Sha384
 
-},{"inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","./sha512":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha512.js","./hash":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\hash.js","safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\index.js":[function(require,module,exports) {
+},{"inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","./sha512":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha512.js","./hash":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\hash.js","safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\index.js":[function(require,module,exports) {
 var exports = module.exports = function SHA (algorithm) {
   algorithm = algorithm.toLowerCase()
 
@@ -34995,7 +34995,7 @@ exports.sha256 = require('./sha256')
 exports.sha384 = require('./sha384')
 exports.sha512 = require('./sha512')
 
-},{"./sha":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha.js","./sha1":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha1.js","./sha224":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha224.js","./sha256":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha256.js","./sha384":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha384.js","./sha512":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha512.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\cipher-base\\index.js":[function(require,module,exports) {
+},{"./sha":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha.js","./sha1":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha1.js","./sha224":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha224.js","./sha256":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha256.js","./sha384":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha384.js","./sha512":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\sha512.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\cipher-base\\index.js":[function(require,module,exports) {
 
 var Buffer = require('safe-buffer').Buffer
 var Transform = require('stream').Transform
@@ -35097,7 +35097,7 @@ CipherBase.prototype._toString = function (value, enc, fin) {
 
 module.exports = CipherBase
 
-},{"safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","stream":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\stream-browserify\\index.js","string_decoder":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\string_decoder\\lib\\string_decoder.js","inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hash\\browser.js":[function(require,module,exports) {
+},{"safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","stream":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\stream-browserify\\index.js","string_decoder":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\string_decoder\\lib\\string_decoder.js","inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hash\\browser.js":[function(require,module,exports) {
 'use strict'
 var inherits = require('inherits')
 var MD5 = require('md5.js')
@@ -35129,7 +35129,7 @@ module.exports = function createHash (alg) {
   return new Hash(sha(alg))
 }
 
-},{"inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","md5.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\md5.js\\index.js","ripemd160":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\ripemd160\\index.js","sha.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\index.js","cipher-base":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\cipher-base\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hmac\\legacy.js":[function(require,module,exports) {
+},{"inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","md5.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\md5.js\\index.js","ripemd160":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\ripemd160\\index.js","sha.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\index.js","cipher-base":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\cipher-base\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hmac\\legacy.js":[function(require,module,exports) {
 
 'use strict'
 var inherits = require('inherits')
@@ -35178,14 +35178,14 @@ Hmac.prototype._final = function () {
 }
 module.exports = Hmac
 
-},{"inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","cipher-base":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\cipher-base\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hash\\md5.js":[function(require,module,exports) {
+},{"inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","cipher-base":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\cipher-base\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hash\\md5.js":[function(require,module,exports) {
 var MD5 = require('md5.js')
 
 module.exports = function (buffer) {
   return new MD5().update(buffer).digest()
 }
 
-},{"md5.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\md5.js\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hmac\\browser.js":[function(require,module,exports) {
+},{"md5.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\md5.js\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hmac\\browser.js":[function(require,module,exports) {
 
 'use strict'
 var inherits = require('inherits')
@@ -35250,7 +35250,7 @@ module.exports = function createHmac (alg, key) {
   return new Hmac(alg, key)
 }
 
-},{"inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","./legacy":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hmac\\legacy.js","cipher-base":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\cipher-base\\index.js","safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","create-hash/md5":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hash\\md5.js","ripemd160":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\ripemd160\\index.js","sha.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\browser\\algorithms.json":[function(require,module,exports) {
+},{"inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","./legacy":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hmac\\legacy.js","cipher-base":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\cipher-base\\index.js","safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","create-hash/md5":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hash\\md5.js","ripemd160":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\ripemd160\\index.js","sha.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\sha.js\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\browser\\algorithms.json":[function(require,module,exports) {
 module.exports = {
   "sha224WithRSAEncryption": {
     "sign": "rsa",
@@ -35404,10 +35404,10 @@ module.exports = {
   }
 }
 ;
-},{}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\algos.js":[function(require,module,exports) {
+},{}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\algos.js":[function(require,module,exports) {
 module.exports = require('./browser/algorithms.json')
 
-},{"./browser/algorithms.json":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\browser\\algorithms.json"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\lib\\precondition.js":[function(require,module,exports) {
+},{"./browser/algorithms.json":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\browser\\algorithms.json"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\lib\\precondition.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 var MAX_ALLOC = Math.pow(2, 30) - 1; // default in iojs
 
@@ -35438,7 +35438,7 @@ module.exports = function (password, salt, iterations, keylen) {
     throw new TypeError('Bad key length');
   }
 };
-},{"buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\lib\\default-encoding.js":[function(require,module,exports) {
+},{"buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\lib\\default-encoding.js":[function(require,module,exports) {
 var process = require("process");
 var defaultEncoding;
 /* istanbul ignore next */
@@ -35450,7 +35450,7 @@ if (process.browser) {
   defaultEncoding = pVersionMajor >= 6 ? 'utf-8' : 'binary';
 }
 module.exports = defaultEncoding;
-},{"process":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process\\browser.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\lib\\sync.js":[function(require,module,exports) {
+},{"process":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process\\browser.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\lib\\sync.js":[function(require,module,exports) {
 
 var sizes = {
   md5: 16,
@@ -35503,7 +35503,7 @@ function pbkdf2(password, salt, iterations, keylen, digest) {
 }
 
 module.exports = pbkdf2;
-},{"create-hmac":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hmac\\browser.js","../lib/precondition":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\lib\\precondition.js","../lib/default-encoding":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\lib\\default-encoding.js","safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\lib\\async.js":[function(require,module,exports) {
+},{"create-hmac":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hmac\\browser.js","../lib/precondition":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\lib\\precondition.js","../lib/default-encoding":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\lib\\default-encoding.js","safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\lib\\async.js":[function(require,module,exports) {
 
 var global = arguments[3];
 var process = require("process");
@@ -35604,10 +35604,10 @@ module.exports = function (password, salt, iterations, keylen, digest, callback)
     return sync(password, salt, iterations, keylen, digest);
   }), callback);
 };
-},{"./precondition":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\lib\\precondition.js","./default-encoding":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\lib\\default-encoding.js","./sync":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\lib\\sync.js","safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","process":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process\\browser.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\browser.js":[function(require,module,exports) {
+},{"./precondition":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\lib\\precondition.js","./default-encoding":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\lib\\default-encoding.js","./sync":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\lib\\sync.js","safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","process":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process\\browser.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\browser.js":[function(require,module,exports) {
 exports.pbkdf2 = require('./lib/async');
 exports.pbkdf2Sync = require('./lib/sync');
-},{"./lib/async":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\lib\\async.js","./lib/sync":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\lib\\sync.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des\\utils.js":[function(require,module,exports) {
+},{"./lib/async":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\lib\\async.js","./lib/sync":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\lib\\sync.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des\\utils.js":[function(require,module,exports) {
 'use strict';
 
 exports.readUInt32BE = function readUInt32BE(bytes, off) {
@@ -35865,7 +35865,7 @@ exports.padSplit = function padSplit(num, size, group) {
   return out.join(' ');
 };
 
-},{}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js":[function(require,module,exports) {
+},{}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js":[function(require,module,exports) {
 module.exports = assert;
 
 function assert(val, msg) {
@@ -35878,7 +35878,7 @@ assert.equal = function assertEqual(l, r, msg) {
     throw new Error(msg || ('Assertion failed: ' + l + ' != ' + r));
 };
 
-},{}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des\\cipher.js":[function(require,module,exports) {
+},{}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des\\cipher.js":[function(require,module,exports) {
 'use strict';
 
 var assert = require('minimalistic-assert');
@@ -36021,7 +36021,7 @@ Cipher.prototype._finalDecrypt = function _finalDecrypt() {
   return this._unpad(out);
 };
 
-},{"minimalistic-assert":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des\\des.js":[function(require,module,exports) {
+},{"minimalistic-assert":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des\\des.js":[function(require,module,exports) {
 'use strict';
 
 var assert = require('minimalistic-assert');
@@ -36166,7 +36166,7 @@ DES.prototype._decrypt = function _decrypt(state, lStart, rStart, out, off) {
   utils.rip(l, r, out, off);
 };
 
-},{"minimalistic-assert":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js","inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","../des":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des\\cbc.js":[function(require,module,exports) {
+},{"minimalistic-assert":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js","inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","../des":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des\\cbc.js":[function(require,module,exports) {
 'use strict';
 
 var assert = require('minimalistic-assert');
@@ -36233,7 +36233,7 @@ proto._update = function _update(inp, inOff, out, outOff) {
   }
 };
 
-},{"minimalistic-assert":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js","inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des\\ede.js":[function(require,module,exports) {
+},{"minimalistic-assert":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js","inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des\\ede.js":[function(require,module,exports) {
 'use strict';
 
 var assert = require('minimalistic-assert');
@@ -36290,7 +36290,7 @@ EDE.prototype._update = function _update(inp, inOff, out, outOff) {
 EDE.prototype._pad = DES.prototype._pad;
 EDE.prototype._unpad = DES.prototype._unpad;
 
-},{"minimalistic-assert":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js","inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","../des":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des.js":[function(require,module,exports) {
+},{"minimalistic-assert":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js","inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","../des":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des.js":[function(require,module,exports) {
 'use strict';
 
 exports.utils = require('./des/utils');
@@ -36299,7 +36299,7 @@ exports.DES = require('./des/des');
 exports.CBC = require('./des/cbc');
 exports.EDE = require('./des/ede');
 
-},{"./des/utils":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des\\utils.js","./des/cipher":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des\\cipher.js","./des/des":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des\\des.js","./des/cbc":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des\\cbc.js","./des/ede":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des\\ede.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-des\\index.js":[function(require,module,exports) {
+},{"./des/utils":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des\\utils.js","./des/cipher":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des\\cipher.js","./des/des":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des\\des.js","./des/cbc":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des\\cbc.js","./des/ede":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des\\ede.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-des\\index.js":[function(require,module,exports) {
 
 var CipherBase = require('cipher-base')
 var des = require('des.js')
@@ -36352,7 +36352,7 @@ DES.prototype._final = function () {
   return Buffer.from(this._des.final())
 }
 
-},{"cipher-base":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\cipher-base\\index.js","des.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des.js","inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\ecb.js":[function(require,module,exports) {
+},{"cipher-base":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\cipher-base\\index.js","des.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\des.js\\lib\\des.js","inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\ecb.js":[function(require,module,exports) {
 exports.encrypt = function (self, block) {
   return self._cipher.encryptBlock(block)
 }
@@ -36361,7 +36361,7 @@ exports.decrypt = function (self, block) {
   return self._cipher.decryptBlock(block)
 }
 
-},{}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer-xor\\index.js":[function(require,module,exports) {
+},{}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer-xor\\index.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 module.exports = function xor (a, b) {
   var length = Math.min(a.length, b.length)
@@ -36374,7 +36374,7 @@ module.exports = function xor (a, b) {
   return buffer
 }
 
-},{"buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\cbc.js":[function(require,module,exports) {
+},{"buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\cbc.js":[function(require,module,exports) {
 var xor = require('buffer-xor')
 
 exports.encrypt = function (self, block) {
@@ -36393,7 +36393,7 @@ exports.decrypt = function (self, block) {
   return xor(out, pad)
 }
 
-},{"buffer-xor":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer-xor\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\cfb.js":[function(require,module,exports) {
+},{"buffer-xor":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer-xor\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\cfb.js":[function(require,module,exports) {
 
 var Buffer = require('safe-buffer').Buffer
 var xor = require('buffer-xor')
@@ -36429,7 +36429,7 @@ exports.encrypt = function (self, data, decrypt) {
   return out
 }
 
-},{"safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","buffer-xor":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer-xor\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\cfb8.js":[function(require,module,exports) {
+},{"safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","buffer-xor":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer-xor\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\cfb8.js":[function(require,module,exports) {
 
 var Buffer = require('safe-buffer').Buffer
 
@@ -36457,7 +36457,7 @@ exports.encrypt = function (self, chunk, decrypt) {
   return out
 }
 
-},{"safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\cfb1.js":[function(require,module,exports) {
+},{"safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\cfb1.js":[function(require,module,exports) {
 
 var Buffer = require('safe-buffer').Buffer
 
@@ -36502,7 +36502,7 @@ exports.encrypt = function (self, chunk, decrypt) {
   return out
 }
 
-},{"safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\ofb.js":[function(require,module,exports) {
+},{"safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\ofb.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 var xor = require('buffer-xor')
 
@@ -36521,7 +36521,7 @@ exports.encrypt = function (self, chunk) {
   return xor(chunk, pad)
 }
 
-},{"buffer-xor":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer-xor\\index.js","buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\incr32.js":[function(require,module,exports) {
+},{"buffer-xor":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer-xor\\index.js","buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\incr32.js":[function(require,module,exports) {
 function incr32 (iv) {
   var len = iv.length
   var item
@@ -36538,7 +36538,7 @@ function incr32 (iv) {
 }
 module.exports = incr32
 
-},{}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\ctr.js":[function(require,module,exports) {
+},{}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\ctr.js":[function(require,module,exports) {
 
 var xor = require('buffer-xor')
 var Buffer = require('safe-buffer').Buffer
@@ -36571,7 +36571,7 @@ exports.encrypt = function (self, chunk) {
   return xor(chunk, pad)
 }
 
-},{"buffer-xor":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer-xor\\index.js","safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","../incr32":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\incr32.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\list.json":[function(require,module,exports) {
+},{"buffer-xor":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer-xor\\index.js","safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","../incr32":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\incr32.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\list.json":[function(require,module,exports) {
 module.exports = {
   "aes-128-ecb": {
     "cipher": "AES",
@@ -36764,7 +36764,7 @@ module.exports = {
   }
 }
 ;
-},{}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\index.js":[function(require,module,exports) {
+},{}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\index.js":[function(require,module,exports) {
 var modeModules = {
   ECB: require('./ecb'),
   CBC: require('./cbc'),
@@ -36784,7 +36784,7 @@ for (var key in modes) {
 
 module.exports = modes
 
-},{"./ecb":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\ecb.js","./cbc":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\cbc.js","./cfb":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\cfb.js","./cfb8":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\cfb8.js","./cfb1":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\cfb1.js","./ofb":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\ofb.js","./ctr":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\ctr.js","./list.json":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\list.json"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\aes.js":[function(require,module,exports) {
+},{"./ecb":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\ecb.js","./cbc":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\cbc.js","./cfb":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\cfb.js","./cfb8":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\cfb8.js","./cfb1":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\cfb1.js","./ofb":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\ofb.js","./ctr":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\ctr.js","./list.json":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\list.json"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\aes.js":[function(require,module,exports) {
 
 // based on the aes implimentation in triple sec
 // https://github.com/keybase/triplesec
@@ -37015,7 +37015,7 @@ AES.prototype.scrub = function () {
 
 module.exports.AES = AES
 
-},{"safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\ghash.js":[function(require,module,exports) {
+},{"safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\ghash.js":[function(require,module,exports) {
 
 var Buffer = require('safe-buffer').Buffer
 var ZEROES = Buffer.alloc(16, 0)
@@ -37107,7 +37107,7 @@ GHASH.prototype.final = function (abl, bl) {
 
 module.exports = GHASH
 
-},{"safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\authCipher.js":[function(require,module,exports) {
+},{"safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\authCipher.js":[function(require,module,exports) {
 
 var aes = require('./aes')
 var Buffer = require('safe-buffer').Buffer
@@ -37227,7 +37227,7 @@ StreamCipher.prototype.setAAD = function setAAD (buf) {
 
 module.exports = StreamCipher
 
-},{"./aes":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\aes.js","safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","cipher-base":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\cipher-base\\index.js","inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","./ghash":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\ghash.js","buffer-xor":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer-xor\\index.js","./incr32":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\incr32.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\streamCipher.js":[function(require,module,exports) {
+},{"./aes":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\aes.js","safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","cipher-base":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\cipher-base\\index.js","inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","./ghash":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\ghash.js","buffer-xor":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer-xor\\index.js","./incr32":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\incr32.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\streamCipher.js":[function(require,module,exports) {
 
 var aes = require('./aes')
 var Buffer = require('safe-buffer').Buffer
@@ -37257,7 +37257,7 @@ StreamCipher.prototype._final = function () {
 
 module.exports = StreamCipher
 
-},{"./aes":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\aes.js","safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","cipher-base":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\cipher-base\\index.js","inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\evp_bytestokey\\index.js":[function(require,module,exports) {
+},{"./aes":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\aes.js","safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","cipher-base":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\cipher-base\\index.js","inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\evp_bytestokey\\index.js":[function(require,module,exports) {
 
 var Buffer = require('safe-buffer').Buffer
 var MD5 = require('md5.js')
@@ -37305,7 +37305,7 @@ function EVP_BytesToKey (password, salt, keyBits, ivLen) {
 
 module.exports = EVP_BytesToKey
 
-},{"safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","md5.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\md5.js\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\encrypter.js":[function(require,module,exports) {
+},{"safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","md5.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\md5.js\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\encrypter.js":[function(require,module,exports) {
 
 var MODES = require('./modes')
 var AuthCipher = require('./authCipher')
@@ -37422,7 +37422,7 @@ function createCipher (suite, password) {
 exports.createCipheriv = createCipheriv
 exports.createCipher = createCipher
 
-},{"./modes":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\index.js","./authCipher":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\authCipher.js","safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","./streamCipher":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\streamCipher.js","cipher-base":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\cipher-base\\index.js","./aes":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\aes.js","evp_bytestokey":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\evp_bytestokey\\index.js","inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\decrypter.js":[function(require,module,exports) {
+},{"./modes":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\index.js","./authCipher":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\authCipher.js","safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","./streamCipher":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\streamCipher.js","cipher-base":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\cipher-base\\index.js","./aes":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\aes.js","evp_bytestokey":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\evp_bytestokey\\index.js","inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\decrypter.js":[function(require,module,exports) {
 
 var AuthCipher = require('./authCipher')
 var Buffer = require('safe-buffer').Buffer
@@ -37549,7 +37549,7 @@ function createDecipher (suite, password) {
 exports.createDecipher = createDecipher
 exports.createDecipheriv = createDecipheriv
 
-},{"./authCipher":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\authCipher.js","safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","./modes":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\index.js","./streamCipher":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\streamCipher.js","cipher-base":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\cipher-base\\index.js","./aes":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\aes.js","evp_bytestokey":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\evp_bytestokey\\index.js","inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\browser.js":[function(require,module,exports) {
+},{"./authCipher":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\authCipher.js","safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","./modes":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\index.js","./streamCipher":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\streamCipher.js","cipher-base":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\cipher-base\\index.js","./aes":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\aes.js","evp_bytestokey":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\evp_bytestokey\\index.js","inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\browser.js":[function(require,module,exports) {
 var ciphers = require('./encrypter')
 var deciphers = require('./decrypter')
 var modes = require('./modes/list.json')
@@ -37564,7 +37564,7 @@ exports.createDecipher = exports.Decipher = deciphers.createDecipher
 exports.createDecipheriv = exports.Decipheriv = deciphers.createDecipheriv
 exports.listCiphers = exports.getCiphers = getCiphers
 
-},{"./encrypter":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\encrypter.js","./decrypter":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\decrypter.js","./modes/list.json":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\list.json"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-des\\modes.js":[function(require,module,exports) {
+},{"./encrypter":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\encrypter.js","./decrypter":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\decrypter.js","./modes/list.json":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\list.json"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-des\\modes.js":[function(require,module,exports) {
 exports['des-ecb'] = {
   key: 8,
   iv: 0
@@ -37590,7 +37590,7 @@ exports['des-ede'] = {
   iv: 0
 }
 
-},{}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-cipher\\browser.js":[function(require,module,exports) {
+},{}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-cipher\\browser.js":[function(require,module,exports) {
 var DES = require('browserify-des')
 var aes = require('browserify-aes/browser')
 var aesModes = require('browserify-aes/modes')
@@ -37659,7 +37659,7 @@ exports.createDecipher = exports.Decipher = createDecipher
 exports.createDecipheriv = exports.Decipheriv = createDecipheriv
 exports.listCiphers = exports.getCiphers = getCiphers
 
-},{"browserify-des":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-des\\index.js","browserify-aes/browser":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\browser.js","browserify-aes/modes":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\index.js","browserify-des/modes":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-des\\modes.js","evp_bytestokey":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\evp_bytestokey\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js":[function(require,module,exports) {
+},{"browserify-des":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-des\\index.js","browserify-aes/browser":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\browser.js","browserify-aes/modes":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\modes\\index.js","browserify-des/modes":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-des\\modes.js","evp_bytestokey":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\evp_bytestokey\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 (function (module, exports) {
   'use strict';
@@ -41089,7 +41089,7 @@ var Buffer = require("buffer").Buffer;
   };
 })(typeof module === 'undefined' || module, this);
 
-},{"buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\_empty.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\brorand\\index.js":[function(require,module,exports) {
+},{"buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\_empty.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\brorand\\index.js":[function(require,module,exports) {
 var r;
 
 module.exports = function rand(len) {
@@ -41156,7 +41156,7 @@ if (typeof self === 'object') {
   }
 }
 
-},{"crypto":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\_empty.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\miller-rabin\\lib\\mr.js":[function(require,module,exports) {
+},{"crypto":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\_empty.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\miller-rabin\\lib\\mr.js":[function(require,module,exports) {
 var bn = require('bn.js');
 var brorand = require('brorand');
 
@@ -41273,7 +41273,7 @@ MillerRabin.prototype.getDivisor = function getDivisor(n, k) {
   return false;
 };
 
-},{"bn.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","brorand":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\brorand\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\diffie-hellman\\lib\\generatePrime.js":[function(require,module,exports) {
+},{"bn.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","brorand":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\brorand\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\diffie-hellman\\lib\\generatePrime.js":[function(require,module,exports) {
 var randomBytes = require('randombytes');
 module.exports = findPrime;
 findPrime.simpleSieve = simpleSieve;
@@ -41380,7 +41380,7 @@ function findPrime(bits, gen) {
 
 }
 
-},{"randombytes":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\randombytes\\browser.js","bn.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","miller-rabin":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\miller-rabin\\lib\\mr.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\diffie-hellman\\lib\\primes.json":[function(require,module,exports) {
+},{"randombytes":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\randombytes\\browser.js","bn.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","miller-rabin":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\miller-rabin\\lib\\mr.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\diffie-hellman\\lib\\primes.json":[function(require,module,exports) {
 module.exports = {
     "modp1": {
         "gen": "02",
@@ -41415,7 +41415,7 @@ module.exports = {
         "prime": "ffffffffffffffffc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3404ddef9519b3cd3a431b302b0a6df25f14374fe1356d6d51c245e485b576625e7ec6f44c42e9a637ed6b0bff5cb6f406b7edee386bfb5a899fa5ae9f24117c4b1fe649286651ece45b3dc2007cb8a163bf0598da48361c55d39a69163fa8fd24cf5f83655d23dca3ad961c62f356208552bb9ed529077096966d670c354e4abc9804f1746c08ca18217c32905e462e36ce3be39e772c180e86039b2783a2ec07a28fb5c55df06f4c52c9de2bcbf6955817183995497cea956ae515d2261898fa051015728e5a8aaac42dad33170d04507a33a85521abdf1cba64ecfb850458dbef0a8aea71575d060c7db3970f85a6e1e4c7abf5ae8cdb0933d71e8c94e04a25619dcee3d2261ad2ee6bf12ffa06d98a0864d87602733ec86a64521f2b18177b200cbbe117577a615d6c770988c0bad946e208e24fa074e5ab3143db5bfce0fd108e4b82d120a92108011a723c12a787e6d788719a10bdba5b2699c327186af4e23c1a946834b6150bda2583e9ca2ad44ce8dbbbc2db04de8ef92e8efc141fbecaa6287c59474e6bc05d99b2964fa090c3a2233ba186515be7ed1f612970cee2d7afb81bdd762170481cd0069127d5b05aa993b4ea988d8fddc186ffb7dc90a6c08f4df435c93402849236c3fab4d27c7026c1d4dcb2602646dec9751e763dba37bdf8ff9406ad9e530ee5db382f413001aeb06a53ed9027d831179727b0865a8918da3edbebcf9b14ed44ce6cbaced4bb1bdb7f1447e6cc254b332051512bd7af426fb8f401378cd2bf5983ca01c64b92ecf032ea15d1721d03f482d7ce6e74fef6d55e702f46980c82b5a84031900b1c9e59e7c97fbec7e8f323a97a7e36cc88be0f1d45b7ff585ac54bd407b22b4154aacc8f6d7ebf48e1d814cc5ed20f8037e0a79715eef29be32806a1d58bb7c5da76f550aa3d8a1fbff0eb19ccb1a313d55cda56c9ec2ef29632387fe8d76e3c0468043e8f663f4860ee12bf2d5b0b7474d6e694f91e6dbe115974a3926f12fee5e438777cb6a932df8cd8bec4d073b931ba3bc832b68d9dd300741fa7bf8afc47ed2576f6936ba424663aab639c5ae4f5683423b4742bf1c978238f16cbe39d652de3fdb8befc848ad922222e04a4037c0713eb57a81a23f0c73473fc646cea306b4bcbc8862f8385ddfa9d4b7fa2c087e879683303ed5bdd3a062b3cf5b3a278a66d2a13f83f44f82ddf310ee074ab6a364597e899a0255dc164f31cc50846851df9ab48195ded7ea1b1d510bd7ee74d73faf36bc31ecfa268359046f4eb879f924009438b481c6cd7889a002ed5ee382bc9190da6fc026e479558e4475677e9aa9e3050e2765694dfc81f56e880b96e7160c980dd98edd3dfffffffffffffffff"
     }
 };
-},{}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\diffie-hellman\\lib\\dh.js":[function(require,module,exports) {
+},{}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\diffie-hellman\\lib\\dh.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 var BN = require('bn.js');
 var MillerRabin = require('miller-rabin');
@@ -41582,7 +41582,7 @@ function formatReturnValue(bn, enc) {
   }
 }
 
-},{"bn.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","miller-rabin":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\miller-rabin\\lib\\mr.js","./generatePrime":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\diffie-hellman\\lib\\generatePrime.js","randombytes":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\randombytes\\browser.js","buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\diffie-hellman\\browser.js":[function(require,module,exports) {
+},{"bn.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","miller-rabin":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\miller-rabin\\lib\\mr.js","./generatePrime":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\diffie-hellman\\lib\\generatePrime.js","randombytes":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\randombytes\\browser.js","buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\diffie-hellman\\browser.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 var generatePrime = require('./lib/generatePrime')
 var primes = require('./lib/primes.json')
@@ -41627,7 +41627,7 @@ function createDiffieHellman (prime, enc, generator, genc) {
 exports.DiffieHellmanGroup = exports.createDiffieHellmanGroup = exports.getDiffieHellman = getDiffieHellman
 exports.createDiffieHellman = exports.DiffieHellman = createDiffieHellman
 
-},{"./lib/generatePrime":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\diffie-hellman\\lib\\generatePrime.js","./lib/primes.json":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\diffie-hellman\\lib\\primes.json","./lib/dh":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\diffie-hellman\\lib\\dh.js","buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-rsa\\index.js":[function(require,module,exports) {
+},{"./lib/generatePrime":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\diffie-hellman\\lib\\generatePrime.js","./lib/primes.json":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\diffie-hellman\\lib\\primes.json","./lib/dh":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\diffie-hellman\\lib\\dh.js","buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-rsa\\index.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 var bn = require('bn.js');
 var randomBytes = require('randombytes');
@@ -41670,7 +41670,7 @@ function getr(priv) {
   return r;
 }
 
-},{"bn.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","randombytes":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\randombytes\\browser.js","buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\package.json":[function(require,module,exports) {
+},{"bn.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","randombytes":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\randombytes\\browser.js","buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\package.json":[function(require,module,exports) {
 module.exports = {
   "_from": "elliptic@^6.0.0",
   "_id": "elliptic@6.4.1",
@@ -41695,7 +41695,7 @@ module.exports = {
   "_resolved": "https://registry.npmjs.org/elliptic/-/elliptic-6.4.1.tgz",
   "_shasum": "c2d0b7776911b86722c632c3c06c60f2f819939a",
   "_spec": "elliptic@^6.0.0",
-  "_where": "C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign",
+  "_where": "C:\\Users\\AITINDO-PC\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign",
   "author": {
     "name": "Fedor Indutny",
     "email": "fedor@indutny.com"
@@ -41759,7 +41759,7 @@ module.exports = {
   "version": "6.4.1"
 }
 ;
-},{}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-crypto-utils\\lib\\utils.js":[function(require,module,exports) {
+},{}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-crypto-utils\\lib\\utils.js":[function(require,module,exports) {
 'use strict';
 
 var utils = exports;
@@ -41819,7 +41819,7 @@ utils.encode = function encode(arr, enc) {
     return arr;
 };
 
-},{}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\utils.js":[function(require,module,exports) {
+},{}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\utils.js":[function(require,module,exports) {
 'use strict';
 
 var utils = exports;
@@ -41941,7 +41941,7 @@ function intFromLE(bytes) {
 utils.intFromLE = intFromLE;
 
 
-},{"bn.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","minimalistic-assert":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js","minimalistic-crypto-utils":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-crypto-utils\\lib\\utils.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\base.js":[function(require,module,exports) {
+},{"bn.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","minimalistic-assert":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js","minimalistic-crypto-utils":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-crypto-utils\\lib\\utils.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\base.js":[function(require,module,exports) {
 'use strict';
 
 var BN = require('bn.js');
@@ -42318,7 +42318,7 @@ BasePoint.prototype.dblp = function dblp(k) {
   return r;
 };
 
-},{"bn.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","../../elliptic":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\short.js":[function(require,module,exports) {
+},{"bn.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","../../elliptic":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\short.js":[function(require,module,exports) {
 'use strict';
 
 var curve = require('../curve');
@@ -43257,7 +43257,7 @@ JPoint.prototype.isInfinity = function isInfinity() {
   return this.z.cmpn(0) === 0;
 };
 
-},{"../curve":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\index.js","../../elliptic":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js","bn.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\mont.js":[function(require,module,exports) {
+},{"../curve":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\index.js","../../elliptic":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js","bn.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\mont.js":[function(require,module,exports) {
 'use strict';
 
 var curve = require('../curve');
@@ -43439,7 +43439,7 @@ Point.prototype.getX = function getX() {
   return this.x.fromRed();
 };
 
-},{"../curve":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\index.js","bn.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","../../elliptic":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\edwards.js":[function(require,module,exports) {
+},{"../curve":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\index.js","bn.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","../../elliptic":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\edwards.js":[function(require,module,exports) {
 'use strict';
 
 var curve = require('../curve');
@@ -43874,7 +43874,7 @@ Point.prototype.eqXToP = function eqXToP(x) {
 Point.prototype.toP = Point.prototype.normalize;
 Point.prototype.mixedAdd = Point.prototype.add;
 
-},{"../curve":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\index.js","../../elliptic":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js","bn.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\index.js":[function(require,module,exports) {
+},{"../curve":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\index.js","../../elliptic":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js","bn.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\index.js":[function(require,module,exports) {
 'use strict';
 
 var curve = exports;
@@ -43884,7 +43884,7 @@ curve.short = require('./short');
 curve.mont = require('./mont');
 curve.edwards = require('./edwards');
 
-},{"./base":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\base.js","./short":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\short.js","./mont":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\mont.js","./edwards":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\edwards.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\utils.js":[function(require,module,exports) {
+},{"./base":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\base.js","./short":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\short.js","./mont":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\mont.js","./edwards":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\edwards.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\utils.js":[function(require,module,exports) {
 'use strict';
 
 var assert = require('minimalistic-assert');
@@ -44139,7 +44139,7 @@ function shr64_lo(ah, al, num) {
 }
 exports.shr64_lo = shr64_lo;
 
-},{"minimalistic-assert":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js","inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\common.js":[function(require,module,exports) {
+},{"minimalistic-assert":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js","inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\common.js":[function(require,module,exports) {
 'use strict';
 
 var utils = require('./utils');
@@ -44233,7 +44233,7 @@ BlockHash.prototype._pad = function pad() {
   return res;
 };
 
-},{"./utils":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\utils.js","minimalistic-assert":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\common.js":[function(require,module,exports) {
+},{"./utils":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\utils.js","minimalistic-assert":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\common.js":[function(require,module,exports) {
 'use strict';
 
 var utils = require('../utils');
@@ -44284,7 +44284,7 @@ function g1_256(x) {
 }
 exports.g1_256 = g1_256;
 
-},{"../utils":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\utils.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\1.js":[function(require,module,exports) {
+},{"../utils":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\utils.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\1.js":[function(require,module,exports) {
 'use strict';
 
 var utils = require('../utils');
@@ -44360,7 +44360,7 @@ SHA1.prototype._digest = function digest(enc) {
     return utils.split32(this.h, 'big');
 };
 
-},{"../utils":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\utils.js","../common":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\common.js","./common":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\common.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\256.js":[function(require,module,exports) {
+},{"../utils":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\utils.js","../common":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\common.js","./common":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\common.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\256.js":[function(require,module,exports) {
 'use strict';
 
 var utils = require('../utils');
@@ -44467,7 +44467,7 @@ SHA256.prototype._digest = function digest(enc) {
     return utils.split32(this.h, 'big');
 };
 
-},{"../utils":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\utils.js","../common":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\common.js","./common":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\common.js","minimalistic-assert":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\224.js":[function(require,module,exports) {
+},{"../utils":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\utils.js","../common":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\common.js","./common":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\common.js","minimalistic-assert":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\224.js":[function(require,module,exports) {
 'use strict';
 
 var utils = require('../utils');
@@ -44499,7 +44499,7 @@ SHA224.prototype._digest = function digest(enc) {
 };
 
 
-},{"../utils":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\utils.js","./256":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\256.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\512.js":[function(require,module,exports) {
+},{"../utils":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\utils.js","./256":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\256.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\512.js":[function(require,module,exports) {
 'use strict';
 
 var utils = require('../utils');
@@ -44831,7 +44831,7 @@ function g1_512_lo(xh, xl) {
   return r;
 }
 
-},{"../utils":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\utils.js","../common":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\common.js","minimalistic-assert":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\384.js":[function(require,module,exports) {
+},{"../utils":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\utils.js","../common":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\common.js","minimalistic-assert":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\384.js":[function(require,module,exports) {
 'use strict';
 
 var utils = require('../utils');
@@ -44868,7 +44868,7 @@ SHA384.prototype._digest = function digest(enc) {
     return utils.split32(this.h.slice(0, 12), 'big');
 };
 
-},{"../utils":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\utils.js","./512":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\512.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha.js":[function(require,module,exports) {
+},{"../utils":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\utils.js","./512":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\512.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha.js":[function(require,module,exports) {
 'use strict';
 
 exports.sha1 = require('./sha/1');
@@ -44877,7 +44877,7 @@ exports.sha256 = require('./sha/256');
 exports.sha384 = require('./sha/384');
 exports.sha512 = require('./sha/512');
 
-},{"./sha/1":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\1.js","./sha/224":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\224.js","./sha/256":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\256.js","./sha/384":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\384.js","./sha/512":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\512.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\ripemd.js":[function(require,module,exports) {
+},{"./sha/1":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\1.js","./sha/224":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\224.js","./sha/256":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\256.js","./sha/384":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\384.js","./sha/512":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha\\512.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\ripemd.js":[function(require,module,exports) {
 'use strict';
 
 var utils = require('./utils');
@@ -45025,7 +45025,7 @@ var sh = [
   8, 5, 12, 9, 12, 5, 14, 6, 8, 13, 6, 5, 15, 13, 11, 11
 ];
 
-},{"./utils":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\utils.js","./common":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\common.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\hmac.js":[function(require,module,exports) {
+},{"./utils":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\utils.js","./common":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\common.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\hmac.js":[function(require,module,exports) {
 'use strict';
 
 var utils = require('./utils');
@@ -45074,7 +45074,7 @@ Hmac.prototype.digest = function digest(enc) {
   return this.outer.digest(enc);
 };
 
-},{"./utils":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\utils.js","minimalistic-assert":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash.js":[function(require,module,exports) {
+},{"./utils":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\utils.js","minimalistic-assert":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash.js":[function(require,module,exports) {
 var hash = exports;
 
 hash.utils = require('./hash/utils');
@@ -45091,7 +45091,7 @@ hash.sha384 = hash.sha.sha384;
 hash.sha512 = hash.sha.sha512;
 hash.ripemd160 = hash.ripemd.ripemd160;
 
-},{"./hash/utils":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\utils.js","./hash/common":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\common.js","./hash/sha":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha.js","./hash/ripemd":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\ripemd.js","./hash/hmac":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\hmac.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\precomputed\\secp256k1.js":[function(require,module,exports) {
+},{"./hash/utils":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\utils.js","./hash/common":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\common.js","./hash/sha":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\sha.js","./hash/ripemd":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\ripemd.js","./hash/hmac":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash\\hmac.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\precomputed\\secp256k1.js":[function(require,module,exports) {
 module.exports = {
   doubles: {
     step: 4,
@@ -45873,7 +45873,7 @@ module.exports = {
   }
 };
 
-},{}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curves.js":[function(require,module,exports) {
+},{}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curves.js":[function(require,module,exports) {
 'use strict';
 
 var curves = exports;
@@ -46080,7 +46080,7 @@ defineCurve('secp256k1', {
   ]
 });
 
-},{"hash.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash.js","../elliptic":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js","./precomputed/secp256k1":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\precomputed\\secp256k1.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hmac-drbg\\lib\\hmac-drbg.js":[function(require,module,exports) {
+},{"hash.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash.js","../elliptic":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js","./precomputed/secp256k1":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\precomputed\\secp256k1.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hmac-drbg\\lib\\hmac-drbg.js":[function(require,module,exports) {
 'use strict';
 
 var hash = require('hash.js');
@@ -46195,7 +46195,7 @@ HmacDRBG.prototype.generate = function generate(len, enc, add, addEnc) {
   return utils.encode(res, enc);
 };
 
-},{"hash.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash.js","minimalistic-crypto-utils":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-crypto-utils\\lib\\utils.js","minimalistic-assert":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\ec\\key.js":[function(require,module,exports) {
+},{"hash.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash.js","minimalistic-crypto-utils":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-crypto-utils\\lib\\utils.js","minimalistic-assert":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\ec\\key.js":[function(require,module,exports) {
 'use strict';
 
 var BN = require('bn.js');
@@ -46316,7 +46316,7 @@ KeyPair.prototype.inspect = function inspect() {
          ' pub: ' + (this.pub && this.pub.inspect()) + ' >';
 };
 
-},{"bn.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","../../elliptic":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\ec\\signature.js":[function(require,module,exports) {
+},{"bn.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","../../elliptic":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\ec\\signature.js":[function(require,module,exports) {
 'use strict';
 
 var BN = require('bn.js');
@@ -46453,7 +46453,7 @@ Signature.prototype.toDER = function toDER(enc) {
   return utils.encode(res, enc);
 };
 
-},{"bn.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","../../elliptic":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\ec\\index.js":[function(require,module,exports) {
+},{"bn.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","../../elliptic":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\ec\\index.js":[function(require,module,exports) {
 'use strict';
 
 var BN = require('bn.js');
@@ -46695,7 +46695,7 @@ EC.prototype.getKeyRecoveryParam = function(e, signature, Q, enc) {
   throw new Error('Unable to find valid recovery factor');
 };
 
-},{"bn.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","hmac-drbg":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hmac-drbg\\lib\\hmac-drbg.js","../../elliptic":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js","./key":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\ec\\key.js","./signature":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\ec\\signature.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\eddsa\\key.js":[function(require,module,exports) {
+},{"bn.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","hmac-drbg":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hmac-drbg\\lib\\hmac-drbg.js","../../elliptic":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js","./key":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\ec\\key.js","./signature":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\ec\\signature.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\eddsa\\key.js":[function(require,module,exports) {
 'use strict';
 
 var elliptic = require('../../elliptic');
@@ -46793,7 +46793,7 @@ KeyPair.prototype.getPublic = function getPublic(enc) {
 
 module.exports = KeyPair;
 
-},{"../../elliptic":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\eddsa\\signature.js":[function(require,module,exports) {
+},{"../../elliptic":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\eddsa\\signature.js":[function(require,module,exports) {
 'use strict';
 
 var BN = require('bn.js');
@@ -46861,7 +46861,7 @@ Signature.prototype.toHex = function toHex() {
 
 module.exports = Signature;
 
-},{"bn.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","../../elliptic":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\eddsa\\index.js":[function(require,module,exports) {
+},{"bn.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","../../elliptic":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\eddsa\\index.js":[function(require,module,exports) {
 'use strict';
 
 var hash = require('hash.js');
@@ -46981,7 +46981,7 @@ EDDSA.prototype.isPoint = function isPoint(val) {
   return val instanceof this.pointClass;
 };
 
-},{"hash.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash.js","../../elliptic":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js","./key":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\eddsa\\key.js","./signature":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\eddsa\\signature.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js":[function(require,module,exports) {
+},{"hash.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\hash.js\\lib\\hash.js","../../elliptic":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js","./key":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\eddsa\\key.js","./signature":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\eddsa\\signature.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js":[function(require,module,exports) {
 'use strict';
 
 var elliptic = exports;
@@ -46996,7 +46996,7 @@ elliptic.curves = require('./elliptic/curves');
 elliptic.ec = require('./elliptic/ec');
 elliptic.eddsa = require('./elliptic/eddsa');
 
-},{"../package.json":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\package.json","./elliptic/utils":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\utils.js","brorand":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\brorand\\index.js","./elliptic/curve":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\index.js","./elliptic/curves":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curves.js","./elliptic/ec":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\ec\\index.js","./elliptic/eddsa":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\eddsa\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\indexof\\index.js":[function(require,module,exports) {
+},{"../package.json":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\package.json","./elliptic/utils":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\utils.js","brorand":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\brorand\\index.js","./elliptic/curve":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curve\\index.js","./elliptic/curves":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\curves.js","./elliptic/ec":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\ec\\index.js","./elliptic/eddsa":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic\\eddsa\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\indexof\\index.js":[function(require,module,exports) {
 
 var indexOf = [].indexOf;
 
@@ -47007,7 +47007,7 @@ module.exports = function(arr, obj){
   }
   return -1;
 };
-},{}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\vm-browserify\\index.js":[function(require,module,exports) {
+},{}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\vm-browserify\\index.js":[function(require,module,exports) {
 var indexOf = require('indexof');
 
 var Object_keys = function (obj) {
@@ -47147,7 +47147,7 @@ exports.createContext = Script.createContext = function (context) {
     return copy;
 };
 
-},{"indexof":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\indexof\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\api.js":[function(require,module,exports) {
+},{"indexof":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\indexof\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\api.js":[function(require,module,exports) {
 var asn1 = require('../asn1');
 var inherits = require('inherits');
 
@@ -47210,7 +47210,7 @@ Entity.prototype.encode = function encode(data, enc, /* internal */ reporter) {
   return this._getEncoder(enc).encode(data, reporter);
 };
 
-},{"../asn1":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1.js","inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","vm":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\vm-browserify\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\base\\reporter.js":[function(require,module,exports) {
+},{"../asn1":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1.js","inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","vm":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\vm-browserify\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\base\\reporter.js":[function(require,module,exports) {
 var inherits = require('inherits');
 
 function Reporter(options) {
@@ -47333,7 +47333,7 @@ ReporterError.prototype.rethrow = function rethrow(msg) {
   return this;
 };
 
-},{"inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\base\\buffer.js":[function(require,module,exports) {
+},{"inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\base\\buffer.js":[function(require,module,exports) {
 
 var inherits = require('inherits');
 var Reporter = require('../base').Reporter;
@@ -47452,7 +47452,7 @@ EncoderBuffer.prototype.join = function join(out, offset) {
   return out;
 };
 
-},{"inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","../base":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\base\\index.js","buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\base\\node.js":[function(require,module,exports) {
+},{"inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","../base":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\base\\index.js","buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\base\\node.js":[function(require,module,exports) {
 var Reporter = require('../base').Reporter;
 var EncoderBuffer = require('../base').EncoderBuffer;
 var DecoderBuffer = require('../base').DecoderBuffer;
@@ -48088,7 +48088,7 @@ Node.prototype._isPrintstr = function isPrintstr(str) {
   return /^[A-Za-z0-9 '\(\)\+,\-\.\/:=\?]*$/.test(str);
 };
 
-},{"../base":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\base\\index.js","minimalistic-assert":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\base\\index.js":[function(require,module,exports) {
+},{"../base":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\base\\index.js","minimalistic-assert":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\minimalistic-assert\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\base\\index.js":[function(require,module,exports) {
 var base = exports;
 
 base.Reporter = require('./reporter').Reporter;
@@ -48096,7 +48096,7 @@ base.DecoderBuffer = require('./buffer').DecoderBuffer;
 base.EncoderBuffer = require('./buffer').EncoderBuffer;
 base.Node = require('./node');
 
-},{"./reporter":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\base\\reporter.js","./buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\base\\buffer.js","./node":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\base\\node.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\constants\\der.js":[function(require,module,exports) {
+},{"./reporter":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\base\\reporter.js","./buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\base\\buffer.js","./node":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\base\\node.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\constants\\der.js":[function(require,module,exports) {
 var constants = require('../constants');
 
 exports.tagClass = {
@@ -48140,7 +48140,7 @@ exports.tag = {
 };
 exports.tagByName = constants._reverse(exports.tag);
 
-},{"../constants":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\constants\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\constants\\index.js":[function(require,module,exports) {
+},{"../constants":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\constants\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\constants\\index.js":[function(require,module,exports) {
 var constants = exports;
 
 // Helper
@@ -48161,7 +48161,7 @@ constants._reverse = function reverse(map) {
 
 constants.der = require('./der');
 
-},{"./der":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\constants\\der.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\decoders\\der.js":[function(require,module,exports) {
+},{"./der":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\constants\\der.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\decoders\\der.js":[function(require,module,exports) {
 var inherits = require('inherits');
 
 var asn1 = require('../../asn1');
@@ -48487,7 +48487,7 @@ function derDecodeLen(buf, primitive, fail) {
   return len;
 }
 
-},{"inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","../../asn1":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\decoders\\pem.js":[function(require,module,exports) {
+},{"inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","../../asn1":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\decoders\\pem.js":[function(require,module,exports) {
 
 var inherits = require('inherits');
 var Buffer = require('buffer').Buffer;
@@ -48539,13 +48539,13 @@ PEMDecoder.prototype.decode = function decode(data, options) {
   return DERDecoder.prototype.decode.call(this, input, options);
 };
 
-},{"inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js","./der":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\decoders\\der.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\decoders\\index.js":[function(require,module,exports) {
+},{"inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js","./der":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\decoders\\der.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\decoders\\index.js":[function(require,module,exports) {
 var decoders = exports;
 
 decoders.der = require('./der');
 decoders.pem = require('./pem');
 
-},{"./der":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\decoders\\der.js","./pem":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\decoders\\pem.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\encoders\\der.js":[function(require,module,exports) {
+},{"./der":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\decoders\\der.js","./pem":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\decoders\\pem.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\encoders\\der.js":[function(require,module,exports) {
 
 var inherits = require('inherits');
 var Buffer = require('buffer').Buffer;
@@ -48843,7 +48843,7 @@ function encodeTag(tag, primitive, cls, reporter) {
   return res;
 }
 
-},{"inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js","../../asn1":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\encoders\\pem.js":[function(require,module,exports) {
+},{"inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js","../../asn1":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\encoders\\pem.js":[function(require,module,exports) {
 var inherits = require('inherits');
 
 var DEREncoder = require('./der');
@@ -48866,13 +48866,13 @@ PEMEncoder.prototype.encode = function encode(data, options) {
   return out.join('\n');
 };
 
-},{"inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","./der":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\encoders\\der.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\encoders\\index.js":[function(require,module,exports) {
+},{"inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","./der":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\encoders\\der.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\encoders\\index.js":[function(require,module,exports) {
 var encoders = exports;
 
 encoders.der = require('./der');
 encoders.pem = require('./pem');
 
-},{"./der":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\encoders\\der.js","./pem":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\encoders\\pem.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1.js":[function(require,module,exports) {
+},{"./der":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\encoders\\der.js","./pem":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\encoders\\pem.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1.js":[function(require,module,exports) {
 var asn1 = exports;
 
 asn1.bignum = require('bn.js');
@@ -48883,7 +48883,7 @@ asn1.constants = require('./asn1/constants');
 asn1.decoders = require('./asn1/decoders');
 asn1.encoders = require('./asn1/encoders');
 
-},{"bn.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","./asn1/api":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\api.js","./asn1/base":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\base\\index.js","./asn1/constants":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\constants\\index.js","./asn1/decoders":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\decoders\\index.js","./asn1/encoders":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\encoders\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\certificate.js":[function(require,module,exports) {
+},{"bn.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","./asn1/api":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\api.js","./asn1/base":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\base\\index.js","./asn1/constants":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\constants\\index.js","./asn1/decoders":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\decoders\\index.js","./asn1/encoders":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1\\encoders\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\certificate.js":[function(require,module,exports) {
 // from https://github.com/Rantanen/node-dtls/blob/25a7dc861bda38cfeac93a723500eea4f0ac2e86/Certificate.js
 // thanks to @Rantanen
 
@@ -48973,7 +48973,7 @@ var X509Certificate = asn.define('X509Certificate', function () {
 
 module.exports = X509Certificate
 
-},{"asn1.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\asn1.js":[function(require,module,exports) {
+},{"asn1.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\asn1.js":[function(require,module,exports) {
 // from https://github.com/indutny/self-signed/blob/gh-pages/lib/asn1.js
 // Fedor, you are amazing.
 'use strict'
@@ -49097,7 +49097,7 @@ exports.signature = asn1.define('signature', function () {
   )
 })
 
-},{"asn1.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1.js","./certificate":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\certificate.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\aesid.json":[function(require,module,exports) {
+},{"asn1.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\asn1.js\\lib\\asn1.js","./certificate":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\certificate.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\aesid.json":[function(require,module,exports) {
 module.exports = {"2.16.840.1.101.3.4.1.1": "aes-128-ecb",
 "2.16.840.1.101.3.4.1.2": "aes-128-cbc",
 "2.16.840.1.101.3.4.1.3": "aes-128-ofb",
@@ -49111,7 +49111,7 @@ module.exports = {"2.16.840.1.101.3.4.1.1": "aes-128-ecb",
 "2.16.840.1.101.3.4.1.43": "aes-256-ofb",
 "2.16.840.1.101.3.4.1.44": "aes-256-cfb"
 };
-},{}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\fixProc.js":[function(require,module,exports) {
+},{}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\fixProc.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 // adapted from https://github.com/apatil/pemstrip
 var findProc = /Proc-Type: 4,ENCRYPTED[\n\r]+DEK-Info: AES-((?:128)|(?:192)|(?:256))-CBC,([0-9A-H]+)[\n\r]+([0-9A-z\n\r\+\/\=]+)[\n\r]+/m
@@ -49144,7 +49144,7 @@ module.exports = function (okey, password) {
   }
 }
 
-},{"evp_bytestokey":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\evp_bytestokey\\index.js","browserify-aes":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\browser.js","buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\index.js":[function(require,module,exports) {
+},{"evp_bytestokey":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\evp_bytestokey\\index.js","browserify-aes":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\browser.js","buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\index.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 var asn1 = require('./asn1')
 var aesid = require('./aesid.json')
@@ -49253,7 +49253,7 @@ function decrypt (data, password) {
   return Buffer.concat(out)
 }
 
-},{"./asn1":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\asn1.js","./aesid.json":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\aesid.json","./fixProc":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\fixProc.js","browserify-aes":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\browser.js","pbkdf2":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\browser.js","buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\browser\\curves.json":[function(require,module,exports) {
+},{"./asn1":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\asn1.js","./aesid.json":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\aesid.json","./fixProc":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\fixProc.js","browserify-aes":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-aes\\browser.js","pbkdf2":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\browser.js","buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\browser\\curves.json":[function(require,module,exports) {
 module.exports = {
   "1.3.132.0.10": "secp256k1",
   "1.3.132.0.33": "p224",
@@ -49263,7 +49263,7 @@ module.exports = {
   "1.3.132.0.35": "p521"
 }
 ;
-},{}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\browser\\sign.js":[function(require,module,exports) {
+},{}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\browser\\sign.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 // much of this based on https://github.com/indutny/self-signed/blob/gh-pages/lib/rsa.js
 var createHmac = require('create-hmac')
@@ -49411,7 +49411,7 @@ module.exports = sign
 module.exports.getKey = getKey
 module.exports.makeKey = makeKey
 
-},{"create-hmac":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hmac\\browser.js","browserify-rsa":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-rsa\\index.js","elliptic":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js","bn.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","parse-asn1":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\index.js","./curves.json":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\browser\\curves.json","buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\browser\\verify.js":[function(require,module,exports) {
+},{"create-hmac":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hmac\\browser.js","browserify-rsa":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-rsa\\index.js","elliptic":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js","bn.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","parse-asn1":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\index.js","./curves.json":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\browser\\curves.json","buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\browser\\verify.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 // much of this based on https://github.com/indutny/self-signed/blob/gh-pages/lib/rsa.js
 var BN = require('bn.js')
@@ -49497,7 +49497,7 @@ function checkValue (b, q) {
 
 module.exports = verify
 
-},{"bn.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","elliptic":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js","parse-asn1":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\index.js","./curves.json":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\browser\\curves.json","buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\browser\\index.js":[function(require,module,exports) {
+},{"bn.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","elliptic":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js","parse-asn1":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\index.js","./curves.json":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\browser\\curves.json","buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\browser\\index.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 var createHash = require('create-hash')
 var stream = require('stream')
@@ -49591,7 +49591,7 @@ module.exports = {
   createVerify: createVerify
 }
 
-},{"create-hash":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hash\\browser.js","stream":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\stream-browserify\\index.js","inherits":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","./sign":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\browser\\sign.js","./verify":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\browser\\verify.js","./algorithms.json":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\browser\\algorithms.json","buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-ecdh\\browser.js":[function(require,module,exports) {
+},{"create-hash":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hash\\browser.js","stream":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\stream-browserify\\index.js","inherits":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\inherits\\inherits_browser.js","./sign":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\browser\\sign.js","./verify":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\browser\\verify.js","./algorithms.json":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\browser\\algorithms.json","buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-ecdh\\browser.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 var elliptic = require('elliptic')
 var BN = require('bn.js')
@@ -49718,7 +49718,7 @@ function formatReturnValue (bn, enc, len) {
   }
 }
 
-},{"elliptic":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js","bn.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\mgf.js":[function(require,module,exports) {
+},{"elliptic":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\elliptic\\lib\\elliptic.js","bn.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\mgf.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 var createHash = require('create-hash');
 module.exports = function (seed, len) {
@@ -49736,7 +49736,7 @@ function i2ops(c) {
   out.writeUInt32BE(c,0);
   return out;
 }
-},{"create-hash":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hash\\browser.js","buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\xor.js":[function(require,module,exports) {
+},{"create-hash":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hash\\browser.js","buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\xor.js":[function(require,module,exports) {
 module.exports = function xor(a, b) {
   var len = a.length;
   var i = -1;
@@ -49745,7 +49745,7 @@ module.exports = function xor(a, b) {
   }
   return a
 };
-},{}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\withPublic.js":[function(require,module,exports) {
+},{}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\withPublic.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 var bn = require('bn.js');
 function withPublic(paddedMsg, key) {
@@ -49757,7 +49757,7 @@ function withPublic(paddedMsg, key) {
 }
 
 module.exports = withPublic;
-},{"bn.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\publicEncrypt.js":[function(require,module,exports) {
+},{"bn.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\publicEncrypt.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 var parseKeys = require('parse-asn1');
 var randomBytes = require('randombytes');
@@ -49854,7 +49854,7 @@ function nonZero(len, crypto) {
   }
   return out;
 }
-},{"parse-asn1":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\index.js","randombytes":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\randombytes\\browser.js","create-hash":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hash\\browser.js","./mgf":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\mgf.js","./xor":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\xor.js","bn.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","./withPublic":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\withPublic.js","browserify-rsa":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-rsa\\index.js","buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\privateDecrypt.js":[function(require,module,exports) {
+},{"parse-asn1":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\index.js","randombytes":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\randombytes\\browser.js","create-hash":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hash\\browser.js","./mgf":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\mgf.js","./xor":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\xor.js","bn.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","./withPublic":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\withPublic.js","browserify-rsa":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-rsa\\index.js","buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\privateDecrypt.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 var parseKeys = require('parse-asn1');
 var mgf = require('./mgf');
@@ -49964,7 +49964,7 @@ function compare(a, b){
   }
   return dif;
 }
-},{"parse-asn1":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\index.js","./mgf":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\mgf.js","./xor":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\xor.js","bn.js":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","browserify-rsa":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-rsa\\index.js","create-hash":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hash\\browser.js","./withPublic":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\withPublic.js","buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\browser.js":[function(require,module,exports) {
+},{"parse-asn1":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\parse-asn1\\index.js","./mgf":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\mgf.js","./xor":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\xor.js","bn.js":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\bn.js\\lib\\bn.js","browserify-rsa":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-rsa\\index.js","create-hash":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hash\\browser.js","./withPublic":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\withPublic.js","buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\buffer\\index.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\browser.js":[function(require,module,exports) {
 exports.publicEncrypt = require('./publicEncrypt');
 exports.privateDecrypt = require('./privateDecrypt');
 
@@ -49975,7 +49975,7 @@ exports.privateEncrypt = function privateEncrypt(key, buf) {
 exports.publicDecrypt = function publicDecrypt(key, buf) {
   return exports.privateDecrypt(key, buf, true);
 };
-},{"./publicEncrypt":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\publicEncrypt.js","./privateDecrypt":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\privateDecrypt.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\randomfill\\browser.js":[function(require,module,exports) {
+},{"./publicEncrypt":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\publicEncrypt.js","./privateDecrypt":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\privateDecrypt.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\randomfill\\browser.js":[function(require,module,exports) {
 
 var global = arguments[3];
 var process = require("process");
@@ -50088,7 +50088,7 @@ function randomFillSync (buf, offset, size) {
   return actualFill(buf, offset, size)
 }
 
-},{"safe-buffer":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","randombytes":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\randombytes\\browser.js","process":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process\\browser.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\crypto-browserify\\index.js":[function(require,module,exports) {
+},{"safe-buffer":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\safe-buffer\\index.js","randombytes":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\randombytes\\browser.js","process":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\process\\browser.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\crypto-browserify\\index.js":[function(require,module,exports) {
 'use strict'
 
 exports.randomBytes = exports.rng = exports.pseudoRandomBytes = exports.prng = require('randombytes')
@@ -50187,7 +50187,7 @@ exports.constants = {
   'POINT_CONVERSION_HYBRID': 6
 }
 
-},{"randombytes":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\randombytes\\browser.js","create-hash":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hash\\browser.js","create-hmac":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hmac\\browser.js","browserify-sign/algos":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\algos.js","pbkdf2":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\browser.js","browserify-cipher":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-cipher\\browser.js","diffie-hellman":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\diffie-hellman\\browser.js","browserify-sign":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\browser\\index.js","create-ecdh":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-ecdh\\browser.js","public-encrypt":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\browser.js","randomfill":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\randomfill\\browser.js"}],"..\\..\\node_modules\\uuid\\lib\\rng.js":[function(require,module,exports) {
+},{"randombytes":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\randombytes\\browser.js","create-hash":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hash\\browser.js","create-hmac":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-hmac\\browser.js","browserify-sign/algos":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\algos.js","pbkdf2":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\pbkdf2\\browser.js","browserify-cipher":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-cipher\\browser.js","diffie-hellman":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\diffie-hellman\\browser.js","browserify-sign":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\browserify-sign\\browser\\index.js","create-ecdh":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\create-ecdh\\browser.js","public-encrypt":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\public-encrypt\\browser.js","randomfill":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\randomfill\\browser.js"}],"..\\..\\node_modules\\uuid\\lib\\rng.js":[function(require,module,exports) {
 // Unique ID creation requires a high quality random # generator.  In node.js
 // this is pretty straight-forward - we use the crypto API.
 
@@ -50197,7 +50197,7 @@ module.exports = function nodeRNG() {
   return crypto.randomBytes(16);
 };
 
-},{"crypto":"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\crypto-browserify\\index.js"}],"..\\..\\node_modules\\uuid\\lib\\bytesToUuid.js":[function(require,module,exports) {
+},{"crypto":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\node_modules\\crypto-browserify\\index.js"}],"..\\..\\node_modules\\uuid\\lib\\bytesToUuid.js":[function(require,module,exports) {
 /**
  * Convert array of 16 byte values to UUID string format of the form:
  * XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
@@ -50375,7 +50375,73 @@ uuid.v4 = v4;
 
 module.exports = uuid;
 
-},{"./v1":"..\\..\\node_modules\\uuid\\v1.js","./v4":"..\\..\\node_modules\\uuid\\v4.js"}],"app.js":[function(require,module,exports) {
+},{"./v1":"..\\..\\node_modules\\uuid\\v1.js","./v4":"..\\..\\node_modules\\uuid\\v4.js"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\bundle-url.js":[function(require,module,exports) {
+var bundleURL = null;
+function getBundleURLCached() {
+  if (!bundleURL) {
+    bundleURL = getBundleURL();
+  }
+
+  return bundleURL;
+}
+
+function getBundleURL() {
+  // Attempt to find the URL of the current script and use that as the base URL
+  try {
+    throw new Error();
+  } catch (err) {
+    var matches = ('' + err.stack).match(/(https?|file|ftp):\/\/[^)\n]+/g);
+    if (matches) {
+      return getBaseURL(matches[0]);
+    }
+  }
+
+  return '/';
+}
+
+function getBaseURL(url) {
+  return ('' + url).replace(/^((?:https?|file|ftp):\/\/.+)\/[^/]+$/, '$1') + '/';
+}
+
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+},{}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js":[function(require,module,exports) {
+var bundle = require('./bundle-url');
+
+function updateLink(link) {
+  var newLink = link.cloneNode();
+  newLink.onload = function () {
+    link.remove();
+  };
+  newLink.href = link.href.split('?')[0] + '?' + Date.now();
+  link.parentNode.insertBefore(newLink, link.nextSibling);
+}
+
+var cssTimeout = null;
+function reloadCSS() {
+  if (cssTimeout) {
+    return;
+  }
+
+  cssTimeout = setTimeout(function () {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (bundle.getBaseURL(links[i].href) === bundle.getBundleURL()) {
+        updateLink(links[i]);
+      }
+    }
+
+    cssTimeout = null;
+  }, 50);
+}
+
+module.exports = reloadCSS;
+},{"./bundle-url":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\bundle-url.js"}],"app.scss":[function(require,module,exports) {
+
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js"}],"app.js":[function(require,module,exports) {
 'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -50395,6 +50461,8 @@ var _socket2 = _interopRequireDefault(_socket);
 var _uuid = require('uuid');
 
 var _uuid2 = _interopRequireDefault(_uuid);
+
+require('./app.scss');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -50454,16 +50522,27 @@ var App = function (_Component) {
       username: '',
       waiting: false,
       startGame: false,
-      players: []
+      players: [],
+      notification: ''
     };
 
     _this.socket.on('join', function (data) {
       return _this.handleStartGame(data);
     });
+
+    _this.socket.on('leave', function (data) {
+      return _this.leaveRoom(data);
+    });
     return _this;
   }
 
   _createClass(App, [{
+    key: 'leaveRoom',
+    value: function leaveRoom(data) {
+      console.log(data);
+      this.setState({ notification: data.text + ' You win' });
+    }
+  }, {
     key: 'handleStartGame',
     value: function handleStartGame(data) {
       var _this2 = this;
@@ -50472,7 +50551,7 @@ var App = function (_Component) {
       for (var i in data.players) {
         this.state.players.push(data.players[i]);
       }
-      this.setState({ startGame: true, players: data.players }, function () {
+      this.setState({ startGame: true, players: data.players, notification: 'Game started' }, function () {
         console.log(_this2.state);
       });
     }
@@ -50483,7 +50562,8 @@ var App = function (_Component) {
           username = _state.username,
           waiting = _state.waiting,
           startGame = _state.startGame,
-          players = _state.players;
+          players = _state.players,
+          notification = _state.notification;
 
 
       var allplayer = null;
@@ -50526,7 +50606,7 @@ var App = function (_Component) {
               _react2.default.createElement(
                 'h3',
                 null,
-                'game started'
+                notification
               )
             ) : renderWaiting
           )
@@ -50551,7 +50631,7 @@ var Input = function Input(_ref) {
 
 var roots = document.querySelector('#app');
 _reactDom2.default.render(_react2.default.createElement(App, null), roots);
-},{"react":"..\\..\\node_modules\\react\\index.js","react-dom":"..\\..\\node_modules\\react-dom\\index.js","socket.io-client":"..\\..\\node_modules\\socket.io-client\\lib\\index.js","uuid":"..\\..\\node_modules\\uuid\\index.js"}],"C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\hmr-runtime.js":[function(require,module,exports) {
+},{"react":"..\\..\\node_modules\\react\\index.js","react-dom":"..\\..\\node_modules\\react-dom\\index.js","socket.io-client":"..\\..\\node_modules\\socket.io-client\\lib\\index.js","uuid":"..\\..\\node_modules\\uuid\\index.js","./app.scss":"app.scss"}],"..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -50580,7 +50660,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '49972' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '58160' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -50721,5 +50801,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},["C:\\Users\\sevta\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\hmr-runtime.js","app.js"], null)
+},{}]},{},["..\\..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\hmr-runtime.js","app.js"], null)
 //# sourceMappingURL=/app.map
