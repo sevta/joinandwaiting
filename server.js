@@ -31,7 +31,8 @@ io.on('connection' , socket => {
     username: null,
     inGame: null ,
     player: null ,
-    gameRoom: null
+    gameRoom: null ,
+    inc: 0 ,
   }
 
   socket.on('waiting' , data => {
@@ -45,9 +46,31 @@ io.on('connection' , socket => {
     
     socket.join('waiting room')
     
+    socket.emit('send data socket' , {
+      data: users[socket.id]
+    })
+
     joinAndWaitingPlayers(data.id , data.username)
     console.log('\n')
     console.log('all users' , users)
+  })
+
+  socket.on('inc' , data => {
+    console.log(data)
+    users[data.socket_id].inc = data.inc
+    io.sockets.in('game' + users[socket.id].gameRoom).emit('receive inc' , {
+      player1: users[data.players[0].socket_id].username ,
+      inc1: users[data.players[0].socket_id].inc ,
+      inc2: users[data.players[1].socket_id].inc ,
+      player2: users[data.players[1].socket_id].username
+    })
+
+    if (users[data.socket_id].inc == 10) {
+      io.sockets.in('game' + users[socket.id].gameRoom).emit('win' , {
+        players: users[data.socket_id] ,
+        text: 'winner!'
+      })
+    }
   })
 
   socket.on('disconnect' , () => {
@@ -117,7 +140,7 @@ function joinAndWaitingPlayers(user_id , username) {
     users[player[0].id].player = 1
     users[player[0].id].inGame = true
     users[player[0].id].gameRoom = gameId 
-    users[player[1].id].player = 1
+    users[player[1].id].player = 2
     users[player[1].id].inGame = true
     users[player[1].id].gameRoom = gameId 
 

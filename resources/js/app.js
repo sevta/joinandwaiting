@@ -11,15 +11,21 @@ class App extends Component {
     this.socket = io()
     this.state = {
       id: '' ,
+      socket_id: '',
       username: '',
       waiting: false ,
       startGame: false ,
       players: [] ,
-      notification: ''
+      notification: '',
+      inc: 0 ,
+      data_ingame: null ,
+      win: false
     }
     
     this.socket.on('join' , data => this.handleStartGame(data))
-
+    this.socket.on('send data socket' , data => this.setState({ socket_id: data.data.socket_id }))
+    this.socket.on('receive inc' , data => this.setState({ data_ingame : data } , () => console.log(this.state)))
+    this.socket.on('win' , data => this.setState({ notification: `${data.players.username} Winner!!` , win: true }))
     this.socket.on('leave' , data => this.leaveRoom(data))
   }
 
@@ -30,18 +36,26 @@ class App extends Component {
 
   handleStartGame(data) {
     console.log(data)
-    for (let i in data.players) {
-      this.state.players.push(data.players[i])
-    }
-    this.setState({ startGame: true , players: data.players , notification: 'Game started'} , () => {
+    this.state.players = [data.players[0].player1 , data.players[0].player2]
+    this.setState({ startGame: true , players: this.state.players , notification: 'Game started'} , () => {
       console.log(this.state)
+    })
+  }
+
+  _increments = () => {
+    this.setState({ inc: this.state.inc + 1 } , () => {
+      this.socket.emit('inc' , {
+        socket_id: this.state.socket_id ,
+        inc: this.state.inc ,
+        players: [this.state.players[0] , this.state.players[1]]
+      })
     })
   }
 
   _handleChange = e => {
     let key = e.target.name 
     let value = e.target.value
-    this.setState({ [key] : value } , () => console.log(this.state))
+    this.setState({ [key] : value })
   }
 
   toWaitingRoom = () => {
@@ -67,15 +81,9 @@ class App extends Component {
   }
 
   render() {
-    const { username , waiting , startGame , players , notification } = this.state 
+    const { username , waiting , startGame , players , notification , inc , data_ingame , win} = this.state 
 
     let allplayer = null
-
-    if (startGame) {
-      allplayer = players[0]
-      // let mapplayer = players[0].map((player) => player)
-      // console.log(mapplayer)
-    }
 
 
     const renderWaiting = waiting ?   
@@ -95,7 +103,19 @@ class App extends Component {
               startGame ? (
                 <div>
                   <h3>{ notification }</h3>
-                  
+                  <ListPlayer 
+                    players={players}
+                    isStarted={startGame}
+                    onClick={this._increments}
+                    data={inc}
+                    isWin={win}
+                  />
+                  {data_ingame !== null && (
+                    <ul>
+                      <li> <b>{ data_ingame.player1 }</b> {data_ingame.inc1} </li>
+                      <li> <b>{ data_ingame.player2 }</b> {data_ingame.inc2} </li>
+                    </ul>
+                  )}
                 </div>
               ): renderWaiting
             }
@@ -111,6 +131,28 @@ const Input = ({name , onChange , onKeyPress}) => (
     <input type="text" className='form-control' onKeyPress={onKeyPress} name={name} onChange={onChange} placeholder='your name...'/>
   </div>
 )
+
+const ListPlayer = ({isWin , players , onClick , data }) => {
+  return (
+    <div>
+      <ul>
+        { players.map((player , index) => {
+          return <li key={index}>{player.username}</li>
+        }) }
+      </ul>
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <h1>{data}</h1>
+            {isWin ? null : (
+              <button className="btn btn-info" onClick={onClick}>Increments</button>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
 
 let roots = document.querySelector('#app')
 ReactDOM.render(<App /> , roots)
